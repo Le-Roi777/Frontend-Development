@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import { IonContent, IonPage, IonText } from '@ionic/react';
+import { IonContent, IonPage, IonText } from "@ionic/react";
 
-import LogInContainer from '../components/LogInContainer';
-import PasswordMailContainer from '../components/PasswordMailContainer';
+import LogInContainer from "../components/LogInContainer";
+import PasswordMailContainer from "../components/PasswordMailContainer";
 
-import './LogIn.css';
+import "./LogIn.css";
 
 const LogIn: React.FC = () => {
 
@@ -14,7 +14,7 @@ const LogIn: React.FC = () => {
       <IonContent fullscreen class="ion-padding">
 
         <div className="imgContainer">
-          <img className='logo' src='./assets/img/logo.png' alt="" />
+          <img className="logo" src="./assets/img/logo.png" alt="" />
         </div>
 
         <IonText class="ion-text-center">

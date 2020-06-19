@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useHistory } from "react-router-dom";
 
-import { IonList, IonItem, IonLabel, IonInput, IonButton, IonAlert, IonIcon } from '@ionic/react';
+import { IonList, IonItem, IonLabel, IonInput, IonButton, IonAlert, IonIcon } from "@ionic/react";
 
-import './LogInContainer.css';
-import { alert } from 'ionicons/icons';
+import "./LogInContainer.css";
+import { alert } from "ionicons/icons";
 
 interface ContainerProps { }
 
@@ -55,17 +55,17 @@ const LogInContainer: React.FC<ContainerProps> = () => {
 
     else {
       window.localStorage.setItem("Email", data.Email);
-      window.localStorage.setItem('Password', data.Password);
+      window.localStorage.setItem("Password", data.Password);
 
-      logoImg.src = './assets/img/tick.png';
-      textSwap.innerHTML = "Sign Up Successful!"
+      logoImg.src = "./assets/img/tick.png";
+      textSwap.innerHTML = "Sign Up Successful!";
 
       signUpBtn.disabled = true;
       signInBtn.disabled = false;
 
       reset({ Email: "", Password: "" });
     }
-  }
+  };
 
   // VALIDATE EMAIL INPUT
   function validateEmail(data) {
@@ -133,11 +133,11 @@ const LogInContainer: React.FC<ContainerProps> = () => {
       <IonAlert
         isOpen={showAlertPassword}
         onDidDismiss={() => setShowAlertPassword(false)}
-        cssClass='my-custom-class'
-        header={'Wrong Password'}
-        subHeader={'Wrong Email and Password Combination'}
-        message={'Plese enter correct password.'}
-        buttons={['OK']}
+        cssClass="my-custom-class"
+        header={"Wrong Password"}
+        subHeader={"Wrong Email and Password Combination"}
+        message={"Plese enter correct password."}
+        buttons={["OK"]}
       />
 
     </form>

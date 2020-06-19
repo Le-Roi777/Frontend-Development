@@ -1,9 +1,9 @@
-import React from 'react';
-import { IonPage, IonContent, IonSlides, IonSlide, IonHeader, IonToolbar, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonTitle, IonGrid, IonCol, IonRow } from '@ionic/react';
-import { logOutOutline, readerOutline, bookOutline, helpCircleOutline, chatbubblesOutline } from 'ionicons/icons';
-import DateDisplay from '../components/DateDisplay';
+import React from "react";
+import { IonPage, IonContent, IonSlides, IonSlide, IonHeader, IonToolbar, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonTitle, IonGrid, IonCol, IonRow } from "@ionic/react";
+import { logOutOutline, readerOutline, bookOutline, helpCircleOutline, chatbubblesOutline } from "ionicons/icons";
+import DateDisplay from "../components/DateDisplay";
 
-import './Medicine.css';
+import "./Medicine.css";
 
 const slideOpts = {
     initialSlide: 0,
@@ -26,7 +26,7 @@ const Medicine: React.FC = () => {
                     <div id="avatarContainer" slot="end" className="ion-padding">
 
                         <IonAvatar id="user">
-                            <img src='./assets/img/user.png' alt="" />
+                            <img src="./assets/img/user.png" alt="" />
                             <IonBadge id="notifications-badge" color="primary">1</IonBadge>
                         </IonAvatar>
 
@@ -53,7 +53,7 @@ const Medicine: React.FC = () => {
                     {/* <SLIDE 1 */}
                     <IonSlide id="slide-container">
                         <div>
-                            <img id='meds' src='./assets/img/drugs.png' alt="" />
+                            <img id="meds" src="./assets/img/drugs.png" alt="" />
                         </div>
                         <IonTitle id="slide-head-text" className="ion-padding">Medicine Name</IonTitle>
 
@@ -106,7 +106,7 @@ const Medicine: React.FC = () => {
                     {/* <SLIDE 2 */}
                     <IonSlide id="slide-container">
                         <div>
-                            <img id='meds' src='./assets/img/drugs.png' alt="" />
+                            <img id="meds" src="./assets/img/drugs.png" alt="" />
                         </div>
                         <IonTitle id="slide-head-text" className="ion-padding">Medicine Name</IonTitle>
 
@@ -159,7 +159,7 @@ const Medicine: React.FC = () => {
                     {/* SLIDE 3 */}
                     <IonSlide id="slide-container">
                         <div>
-                            <img id='meds' src='./assets/img/drugs.png' alt="" />
+                            <img id="meds" src="./assets/img/drugs.png" alt="" />
                         </div>
                         <IonTitle id="slide-head-text" className="ion-padding">Medicine Name</IonTitle>
 

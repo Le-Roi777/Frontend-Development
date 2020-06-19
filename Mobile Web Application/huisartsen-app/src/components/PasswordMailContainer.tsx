@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
-import { IonAlert, IonButton, IonToast } from '@ionic/react';
+import { IonAlert, IonButton, IonToast } from "@ionic/react";
 
 interface ContainerProps { }
 
@@ -42,7 +42,7 @@ const PasswordMailContainer: React.FC<ContainerProps> = () => {
       let template_params = {
         "user_email": emailForPassword.value,
         "display_password_msg": storedPassword
-      }
+      };
 
       let service_id = "default_service";
       let template_id = "template_mNGRE7Jl";
@@ -50,13 +50,13 @@ const PasswordMailContainer: React.FC<ContainerProps> = () => {
       emailjs.send(service_id, template_id, template_params, user_id)
 
         .then((result) => {
-          logoImg.src = './assets/img/email.png';
+          logoImg.src = "./assets/img/email.png";
           textSwap.innerHTML = "Email Sent!";
           console.log(result.text);
         },
 
           (error) => {
-            logoImg.src = './assets/img/error.png';
+            logoImg.src = "./assets/img/error.png";
             textSwap.innerHTML = "Oops!";
             console.log(error.text);
           });
@@ -75,32 +75,32 @@ const PasswordMailContainer: React.FC<ContainerProps> = () => {
       <IonAlert
         isOpen={showForgot}
         onDidDismiss={() => setShowAlertForgot(false)}
-        cssClass='my-custom-class'
-        header={'Please enter your email'}
-        subHeader={'We will send you an email with your password'}
+        cssClass="my-custom-class"
+        header={"Please enter your email"}
+        subHeader={"We will send you an email with your password"}
 
         inputs={[
 
           {
-            id: 'emailForPassword',
-            name: 'Email',
-            value: '',
-            type: 'email',
-            placeholder: 'Email',
+            id: "emailForPassword",
+            name: "Email",
+            value: "",
+            type: "email",
+            placeholder: "Email",
           },
         ]}
         buttons={[
           {
-            text: 'Cancel',
-            role: 'cancel',
-            cssClass: 'secondary',
+            text: "Cancel",
+            role: "cancel",
+            cssClass: "secondary",
             handler: () => {
               console.log("Canceled");
             }
           },
           {
-            text: 'Send',
-            role: 'send',
+            text: "Send",
+            role: "send",
             handler: () => {
               validateSendInput();
             }
@@ -119,8 +119,8 @@ const PasswordMailContainer: React.FC<ContainerProps> = () => {
 
         buttons={[
           {
-            text: 'Close',
-            role: 'cancel',
+            text: "Close",
+            role: "cancel",
             handler: () => {
               console.log("Cancel click");
             }
@@ -139,8 +139,8 @@ const PasswordMailContainer: React.FC<ContainerProps> = () => {
 
         buttons={[
           {
-            text: 'Close',
-            role: 'cancel',
+            text: "Close",
+            role: "cancel",
             handler: () => {
               console.log("Cancel click");
             }

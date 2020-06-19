@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import { IonPage, IonHeader, IonToolbar, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonTitle, IonContent, IonItem, IonDatetime, IonRow, IonCol, IonGrid, IonAlert, IonRadioGroup, IonRadio, IonItemDivider } from '@ionic/react';
-import { logOutOutline } from 'ionicons/icons';
+import { IonPage, IonHeader, IonToolbar, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonTitle, IonContent, IonItem, IonDatetime, IonRow, IonCol, IonGrid, IonAlert, IonRadioGroup, IonRadio, IonItemDivider } from "@ionic/react";
+import { logOutOutline } from "ionicons/icons";
 
-import DateDisplay from '../components/DateDisplay';
+import DateDisplay from "../components/DateDisplay";
 
-import './Appointment.css';
+import "./Appointment.css";
 
 const Appointment: React.FC = () => {
 
     const [selectedDate, setSelectedDate] = useState<string>();
     const [showAlertC, setShowAlertC] = useState(false);
-    const [selected, setSelected] = useState<string>('Normal Appointment');
+    const [selected, setSelected] = useState<string>("Normal Appointment");
 ;
     let appointText = document.getElementById("appointText") as HTMLElement;
     let cancelBtn = document.getElementById("cancel-btn") as HTMLElement;
@@ -60,7 +60,7 @@ const Appointment: React.FC = () => {
                     <div id="avatarContainer" slot="end" className="ion-padding">
 
                         <IonAvatar id="user">
-                            <img src='./assets/img/user.png' alt="" />
+                            <img src="./assets/img/user.png" alt="" />
                             <IonBadge id="notifications-badge" color="primary">1</IonBadge>
                         </IonAvatar>
 
@@ -128,13 +128,13 @@ const Appointment: React.FC = () => {
                             <IonDatetime pickerOptions={{
                                 buttons: [
                                     {
-                                        text: 'Cancel',
-                                        role: 'cancel',
-                                        handler: () => console.log('Canceled!')
+                                        text: "Cancel",
+                                        role: "cancel",
+                                        handler: () => console.log("Canceled!")
 
                                     }, {
-                                        text: 'Select',
-                                        role: 'save',
+                                        text: "Select",
+                                        role: "save",
                                         handler: (data: any) => {
 
                                             let appointSelect = data;
@@ -159,13 +159,13 @@ const Appointment: React.FC = () => {
                         <IonDatetime pickerOptions={{
                                 buttons: [
                                     {
-                                        text: 'Cancel',
-                                        role: 'cancel',
-                                        handler: () => console.log('Canceled!')
+                                        text: "Cancel",
+                                        role: "cancel",
+                                        handler: () => console.log("Canceled!")
 
                                     }, {
-                                        text: 'Select',
-                                        role: 'save',
+                                        text: "Select",
+                                        role: "save",
                                         handler: (data: any) => {
 
                                             let appointSelect = data;
@@ -189,13 +189,13 @@ const Appointment: React.FC = () => {
                         <IonDatetime pickerOptions={{
                                 buttons: [
                                     {
-                                        text: 'Cancel',
-                                        role: 'cancel',
-                                        handler: () => console.log('Canceled!')
+                                        text: "Cancel",
+                                        role: "cancel",
+                                        handler: () => console.log("Canceled!")
 
                                     }, {
-                                        text: 'Select',
-                                        role: 'save',
+                                        text: "Select",
+                                        role: "save",
                                         handler: (data: any) => {
 
                                             let appointSelect = data;
@@ -219,13 +219,13 @@ const Appointment: React.FC = () => {
                         <IonDatetime pickerOptions={{
                                 buttons: [
                                     {
-                                        text: 'Cancel',
-                                        role: 'cancel',
-                                        handler: () => console.log('Canceled!')
+                                        text: "Cancel",
+                                        role: "cancel",
+                                        handler: () => console.log("Canceled!")
 
                                     }, {
-                                        text: 'Select',
-                                        role: 'save',
+                                        text: "Select",
+                                        role: "save",
                                         handler: (data: any) => {
 
                                             let appointSelect = data;
@@ -249,13 +249,13 @@ const Appointment: React.FC = () => {
                         <IonDatetime pickerOptions={{
                                 buttons: [
                                     {
-                                        text: 'Cancel',
-                                        role: 'cancel',
-                                        handler: () => console.log('Canceled!')
+                                        text: "Cancel",
+                                        role: "cancel",
+                                        handler: () => console.log("Canceled!")
 
                                     }, {
-                                        text: 'Select',
-                                        role: 'save',
+                                        text: "Select",
+                                        role: "save",
                                         handler: (data: any) => {
 
                                             let appointSelect = data;
@@ -354,29 +354,29 @@ const Appointment: React.FC = () => {
                 <IonAlert
                     isOpen={showAlertC}
                     onDidDismiss={() => setShowAlertC(false)}
-                    cssClass='my-custom-class'
-                    header={'Confirm this appointment'}
-                    message={'Short complaint description'}
+                    cssClass="my-custom-class"
+                    header={"Confirm this appointment"}
+                    message={"Short complaint description"}
                     inputs={[
                         {
-                            id: 'complaintInput',
-                            type: 'text',
-                            placeholder: 'Complaint'
+                            id: "complaintInput",
+                            type: "text",
+                            placeholder: "Complaint"
                         }
                     ]}
 
                     buttons={[
                         {
-                            text: 'Cancel',
-                            role: 'cancel',
-                            cssClass: 'secondary',
+                            text: "Cancel",
+                            role: "cancel",
+                            cssClass: "secondary",
                             handler: removeItem => {
                                 let itemRemove = document.getElementById("itemAdd") as HTMLElement;
                                 itemRemove.remove();
                             }
                         },
                         {
-                            text: 'Confirm',
+                            text: "Confirm",
                             handler: () => {
                                 confirmation();
                             }

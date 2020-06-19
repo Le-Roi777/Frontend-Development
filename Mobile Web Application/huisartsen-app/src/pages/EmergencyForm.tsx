@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonIcon, IonItem, IonLabel, IonSelect, IonSelectOption, IonCheckbox, IonAlert } from '@ionic/react';
-import { arrowBack } from 'ionicons/icons';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonIcon, IonItem, IonLabel, IonSelect, IonSelectOption, IonCheckbox, IonAlert } from "@ionic/react";
+import { arrowBack } from "ionicons/icons";
 
-import './EmergencyForm.css';
+import "./EmergencyForm.css";
 
 const EmergencyForm: React.FC = () => {
 
@@ -71,35 +71,35 @@ const EmergencyForm: React.FC = () => {
             <IonAlert
                 isOpen={showAlert2}
                 onDidDismiss={() => setShowAlert2(false)}
-                cssClass='my-custom-class'
-                header={'Address'}
-                subHeader={'4870 West Fork Street, 777 Helena.'}
-                message={'Go to this medical post.<br>We are aware of your arrival.'}
-                buttons={['Okay']}
+                cssClass="my-custom-class"
+                header={"Address"}
+                subHeader={"4870 West Fork Street, 777 Helena."}
+                message={"Go to this medical post.<br>We are aware of your arrival."}
+                buttons={["Okay"]}
             />
 
             <IonAlert
                 isOpen={showAlert3}
                 onDidDismiss={() => setShowAlert3(false)}
-                cssClass='my-custom-class'
-                header={'Address'}
-                subHeader={'Please enter a address'}
+                cssClass="my-custom-class"
+                header={"Address"}
+                subHeader={"Please enter a address"}
                 inputs={[
                     {
-                        name: 'address',
-                        type: 'text',
-                        placeholder: 'Address'
+                        name: "address",
+                        type: "text",
+                        placeholder: "Address"
                     },
                 ]}
                 buttons={[
                     {
-                        text: 'Go to the location of this device',
+                        text: "Go to the location of this device",
                         handler: () => {
                             setShowAlert4(true);
                         }
                     },
                     {
-                        text: 'I am not on an address',
+                        text: "I am not on an address",
                         handler: () => {
                             setShowAlert4(true);
                         }
@@ -110,10 +110,10 @@ const EmergencyForm: React.FC = () => {
             <IonAlert
                 isOpen={showAlert4}
                 onDidDismiss={() => setShowAlert4(false)}
-                cssClass='my-custom-class'
-                header={'Confirmed'}
-                message={'Help is on the way please stay where you are.'}
-                buttons={['Okay']}
+                cssClass="my-custom-class"
+                header={"Confirmed"}
+                message={"Help is on the way please stay where you are."}
+                buttons={["Okay"]}
             />
 
         </IonPage>

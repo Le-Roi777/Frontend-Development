@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import { IonPage, IonToolbar, IonTitle, IonHeader, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonContent, IonList, IonItemDivider, IonItem, IonTextarea, IonRefresher, IonRefresherContent, IonToast, IonInput, IonGrid, IonRow, IonCol, IonImg } from '@ionic/react';
-import { logOutOutline, send, image, camera } from 'ionicons/icons';
+import { IonPage, IonToolbar, IonTitle, IonHeader, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonContent, IonList, IonItemDivider, IonItem, IonTextarea, IonRefresher, IonRefresherContent, IonToast, IonInput, IonGrid, IonRow, IonCol, IonImg } from "@ionic/react";
+import { logOutOutline, send, image, camera } from "ionicons/icons";
 
-import DateDisplay from '../components/DateDisplay';
-import { usePhotoGallery } from '../components/CameraT';
+import DateDisplay from "../components/DateDisplay";
+import { usePhotoGallery } from "../components/CameraT";
 
-import './Chat.css';
+import "./Chat.css";
 
 const Chat: React.FC = () => {
 
@@ -80,7 +80,7 @@ const Chat: React.FC = () => {
 
     function showFileName() {
         let fullPath = fileTag.value; // fetched value = C:\fakepath\fileName.extension
-        let fileName = fullPath.replace(/^.*[\\\/]/, '')  // fetch the file name
+        let fileName = fullPath.replace(/^.*[\\\/]/, "");  // fetch the file name
 
         imgNameU.innerHTML = fileName;  // display the file name
         imgNameU.style.display = "inline-block";
@@ -104,7 +104,7 @@ const Chat: React.FC = () => {
                     <div id="avatarContainer" slot="end" className="ion-padding">
 
                         <IonAvatar id="user">
-                            <img src='./assets/img/user.png' alt="" />
+                            <img src="./assets/img/user.png" alt="" />
                             <IonBadge id="notifications-badge" color="primary">1</IonBadge>
                         </IonAvatar>
 
@@ -129,7 +129,7 @@ const Chat: React.FC = () => {
 
                 <div id="bubble-container">
                     <IonAvatar id="userAvatar">
-                        <img src='./assets/img/user.png' alt="" />
+                        <img src="./assets/img/user.png" alt="" />
                     </IonAvatar>
                     <p id="displayMessage"></p>
                     <small id="bubbleTime">{bubbleTime}</small>
@@ -137,7 +137,7 @@ const Chat: React.FC = () => {
 
                 <div id="bubble-container-doctor">
                     <IonAvatar id="docAvatar">
-                        <img src='./assets/img/user.png' alt="" />
+                        <img src="./assets/img/user.png" alt="" />
                     </IonAvatar>
                     <p id="displayMessageDoc">Example chat reply from doctor.</p>
                     <small id="bubbleTime">{bubbleTime}</small>
@@ -161,8 +161,8 @@ const Chat: React.FC = () => {
 
                     buttons={[
                         {
-                            text: 'Close',
-                            role: 'cancel',
+                            text: "Close",
+                            role: "cancel",
                             handler: () => {
                                 console.log("Cancel click");
                             }
@@ -179,14 +179,14 @@ const Chat: React.FC = () => {
 
                     buttons={[
                         {
-                            text: 'Yes',
+                            text: "Yes",
                             handler: () => {
                                 removeImgF();
                             }
                         },
                         {
-                            text: 'No',
-                            role: 'cancel',
+                            text: "No",
+                            role: "cancel",
                             handler: () => {
                             }
                         }

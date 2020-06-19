@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import { IonPage, IonToolbar, IonTitle, IonHeader, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonContent, IonItem, IonTextarea, IonItemDivider, IonRadio, IonRadioGroup, IonText, IonSelect, IonSelectOption } from '@ionic/react';
-import { logOutOutline } from 'ionicons/icons';
+import { IonPage, IonToolbar, IonTitle, IonHeader, IonAvatar, IonBadge, IonButton, IonIcon, IonLabel, IonContent, IonItem, IonTextarea, IonItemDivider, IonRadio, IonRadioGroup, IonText, IonSelect, IonSelectOption } from "@ionic/react";
+import { logOutOutline } from "ionicons/icons";
 
-import DateDisplay from '../components/DateDisplay';
+import DateDisplay from "../components/DateDisplay";
 
-import './Referral.css';
+import "./Referral.css";
 
 const Tests: React.FC = () => {
 
@@ -29,7 +29,7 @@ const Tests: React.FC = () => {
                     <div id="avatarContainer" slot="end" className="ion-padding">
 
                         <IonAvatar id="user">
-                            <img src='./assets/img/user.png' alt="" />
+                            <img src="./assets/img/user.png" alt="" />
                             <IonBadge id="notifications-badge" color="primary">1</IonBadge>
                         </IonAvatar>
 
@@ -52,7 +52,7 @@ const Tests: React.FC = () => {
             <IonContent class="ion-padding">
 
                 <div className="imgContainer">
-                    <img className='logo' src='./assets/img/clipboard.png' alt="" />
+                    <img className="logo" src="./assets/img/clipboard.png" alt="" />
                 </div>
 
                 <IonItemDivider>

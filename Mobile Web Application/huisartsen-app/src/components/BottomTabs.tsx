@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { IonTabBar, IonTabButton, IonIcon, IonLabel } from '@ionic/react';
-import { home, chatbubbleEllipses, calendar, people, eyedrop, water } from 'ionicons/icons';
+import { IonTabBar, IonTabButton, IonIcon, IonLabel } from "@ionic/react";
+import { home, chatbubbleEllipses, calendar, people, eyedrop, water } from "ionicons/icons";
 
-import './bottomtabs.css';
+import "./bottomtabs.css";
 
 const BotTabs: React.FC = () => {
 
