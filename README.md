@@ -1,5 +1,5 @@
 # Showcase [![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4037/badge)](https://bestpractices.coreinfrastructure.org/projects/4037)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4037/badge)](https://bestpractices.coreinfrastructure.org/projects/4037) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 <h3>Profiles</h3>
 
