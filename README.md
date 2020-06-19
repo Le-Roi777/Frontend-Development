@@ -1,6 +1,5 @@
-# Showcase<p>[![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)<p>
+# Showcase<p>[![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here) HTML, CSS, JavaScript - Ionic, React<p>
 
-HTML, CSS, JavaScript - Ionic, React
 <h3>Profiles</h3>
 
 <a href="https://www.linkedin.com/in/le-roi-claassen-front-end/"><img src="https://i.stack.imgur.com/gVE0j.png" width="15px">&nbsp;LinkedIn</a>
