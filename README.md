@@ -1,4 +1,4 @@
-# Showcase [![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)<small>HTML CSS JavaScript Ionic React</small>
+# Showcase [![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)</br><small>HTML CSS JavaScript Ionic React</small>
 
 <h3>Profiles</h3>
 
