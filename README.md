@@ -1,5 +1,5 @@
 # Development Projects
-[![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)</br>
+[![HitCount](http://hits.dwyl.com/Le-Roi777/Frontend-Development.svg)](http://hits.dwyl.com/Le-Roi777/Frontend-Development)</br>
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4037/badge)](https://bestpractices.coreinfrastructure.org/projects/4037) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 <h3>Profiles</h3>
