@@ -1,5 +1,6 @@
-# Showcase
-Showcasing completed works in HTML, CSS, JavaScript - Ionic, React
+# Showcase [![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)
+
+<h3>Profiles</h3>
 
 <a href="https://www.linkedin.com/in/le-roi-claassen-front-end/"><img src="https://i.stack.imgur.com/gVE0j.png" width="15px">&nbsp;LinkedIn</a>
 &nbsp;
