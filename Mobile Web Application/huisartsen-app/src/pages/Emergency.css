@@ -1,0 +1,56 @@
+#siren-container {
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+
+#emergency-btn {
+    margin: 20px;
+    padding: 0 16px 0 16px;
+}
+#emergency-btn-back {
+    margin: 20px;
+    padding: 0 16px 0 16px;
+}
+
+#alert-emer .alert-wrapper {
+    text-align: center;
+}
+
+#alert-emer .alert-title {
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+}
+
+#alert-emer .alert-button-inner {
+    padding: 5px;
+    justify-content: center;
+    background: #de5246;
+    color: white;
+    border-radius: 5px;
+}
+
+#emergency-time {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #de5246;
+}
+
+#emergency-time p {
+    margin-bottom: 0;
+}
+
+#emergency-date {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: #de5246;
+}
+
+#emergency-date p {
+    margin-top: 0;
+}

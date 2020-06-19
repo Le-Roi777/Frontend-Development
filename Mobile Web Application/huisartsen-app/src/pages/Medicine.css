@@ -1,0 +1,45 @@
+ion-slides {
+    height: 100%;
+}
+
+#slide-container {
+    display: block;
+}
+
+#meds {
+    display: block;
+    width: 120px;
+    margin: auto;
+}
+
+#slide-head-text {
+    font-weight: bold;
+    color: #45B39C;
+}
+
+#slider-grid ion-col {
+    background: none;
+    border: none;
+    height: auto;
+}
+
+#grid-btns {
+  height: auto;
+}
+
+#grid-btns div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 110px;
+  font-size: 12px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+#grid-btns div ion-icon {
+  width: 25px;
+  height: auto;
+  padding-bottom: 35px;
+  padding-top: 5px;
+}

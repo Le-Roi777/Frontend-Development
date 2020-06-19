@@ -1,0 +1,27 @@
+#specialistSearch, input[type=text] {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #d7d8da;
+}
+
+#specialistSearch:focus {
+    outline: none;
+    border-bottom: 1.5px solid #45b39c;
+}
+
+#selectContainer {
+    display: block;
+    padding-top: 20px;
+}
+
+#questionText {
+    margin-top: 10px;
+}
+
+#bookAppoint {
+    color: #45b39c;
+}
+
+/* #Specialist {
+    visibility: hidden;
+} */

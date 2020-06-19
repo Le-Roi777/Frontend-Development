@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Inzendopgaven 3</title>
+
+        <!--Main Css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--Main Css-->
+
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+        <!--Google Font-->
+
+    </head>
+
+    <body>
+
+        <!-- Content -->
+        <main>
+
+            <!-- MAIN CONAINER -->
+            <div class="container">
+
+                <!-- CALCULATE CONTAINER -->
+                <div class="containerItems">
+
+                    <h2>Interest Calculation</h2>
+                    
+                    <label id="birth">Date of Birth</label><input id="date_input" type="text" placeholder="dd/mm/yyyy">
+                    <br>
+                    <label id="amount">Starting Amount</label><input id="amount_input" type="text" placeholder="€ 0.00">
+                    <br>
+                    <label id="interest">Interest Rate</label><input id="interest_input" type="text" maxlength="2" placeholder="% 0.0">
+
+                    <button id="calculate_btn">Calculate</button>
+
+                </div>
+                <!-- CALCULATE CONTAINER -->
+
+                <!-- <hr> -->
+
+                <!-- OVERVIEW CONTAINER -->
+                <div class="overviewContainer">
+
+                    <div id="overviewInfo">
+
+                        <h2>Interest Overview</h2>
+
+                        <div id="heading_display_container">
+
+                            <ul>
+                                <p id="count_heading"><br>Years</p>
+                                <li id="years_count">0</li>
+                            </ul>
+
+                            <ul>
+                                <p id="total_amount_heading">&euro;<br>Total Amount</p>
+                                    <li id="total_amount">0</li>
+                            </ul>
+
+                            <ul>
+                                <p id="total_interest_heading">&percnt;<br>Total Interest</p>
+                                    <li id="total_interest">0</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- OVERVIEW CONTAINER -->
+
+            </div>
+            <!-- MAIN CONAINER -->
+
+        </main>
+        <!-- Content -->
+        
+        <!-- Footer -->
+        <footer>
+        </footer>
+        <!-- Footer -->
+
+        <!-- SCRIPT -->
+        <script src="js/script.js"></script>
+        <!-- SCRIPT -->
+
+    </body>
+    
+</html>

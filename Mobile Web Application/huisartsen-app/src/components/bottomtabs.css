@@ -1,0 +1,9 @@
+ion-tab-bar {
+    display: inline-grid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    justify-content: space-between;
+}

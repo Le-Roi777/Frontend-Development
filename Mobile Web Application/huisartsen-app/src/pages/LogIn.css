@@ -1,0 +1,14 @@
+.imgContainer {
+    display: flex;
+}
+
+.logo {
+    margin: 5% auto auto auto;
+    width: 150px;
+    height: auto;
+}
+
+.forgot {
+  display: block;
+  margin: 0 auto;
+}

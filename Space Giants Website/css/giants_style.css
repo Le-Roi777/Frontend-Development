@@ -1,0 +1,160 @@
+@import url(style.css);
+
+.giants_content_container {
+    display: inline-block;
+    width: 100%;
+    background-color: #E0E0E0;
+}
+
+article {
+    text-align: center;
+}
+
+.giants_mid_content {
+    width: 85%;
+    margin: 100px auto 100px auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+.giant_neptune, .giant_uranus, .giant_saturn, .giant_jupiter {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.info_align {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info_align a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #58ABDE;
+}
+
+.giant_neptune figure, .giant_uranus figure, .giant_saturn figure, .giant_jupiter figure {
+    margin: 0;
+}
+
+.giant_neptune figure img, .giant_uranus figure img, .giant_saturn figure img, .giant_jupiter figure img {
+    width: 100%;
+    height: auto;
+}
+
+.giant_neptune figure figcaption, .giant_uranus figure figcaption,
+.giant_saturn figure figcaption, .giant_jupiter figure figcaption {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
+}
+
+.giant_neptune h2, .giant_uranus h2, .giant_saturn h2, .giant_jupiter h2 {
+    margin: 35px 0 0 0 ;
+    color: #58ABDE;
+    font-weight: bold;
+}
+
+.giant_neptune p, .giant_uranus p, .giant_saturn p, .giant_jupiter p {
+    font-weight: normal;
+    color: #333333;
+    padding: 5px 0 0 0;
+}
+
+.giant_neptune .small_info, .giant_uranus .small_info, .giant_saturn .small_info, .giant_jupiter .small_info {
+    width: 100%;
+    margin: 25px 0 50px 0;
+    text-align: center;
+}
+
+.giant_neptune .small_info table, .giant_uranus .small_info table,
+.giant_saturn .small_info table, .giant_jupiter .small_info table {
+    width: 100%;
+    background-color: #58ABDE;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+.giant_neptune .small_info table th, .giant_uranus .small_info table th,
+.giant_saturn .small_info table th, .small_info table th {
+    font-weight: bold;
+    color: #333333;
+}
+
+.giant_neptune .small_info table td, .giant_uranus .small_info table td,
+.giant_saturn .small_info table td, .giant_jupiter .small_info table td {
+    font-size: 14px;
+    padding-top: 10px;
+    color: white
+}
+
+.giants_mid_content hr {
+    width: 80%;
+    height: 2px;
+    border: none;
+    margin-bottom: 75px;
+    border-radius: 50px;
+    background: #58ABDE;
+}
+
+.small_info #responsive_table, #responsive_table_neptune,
+#responsive_table_uranus, #responsive_table_saturn, #responsive_table_jupiter {
+    display: none;
+}
+
+.giant_jupiter .extra_info_container {
+    display: block;
+}
+
+.giant_jupiter .extra_info_container #extra_info_icon {
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    margin: 32% 0 0 0;
+    transition: width ease-in-out 0.2s;
+}
+
+.extra_info_container .extra_info{
+    display: block;
+    width: 350px;
+    text-align: left;
+    position: absolute;
+    left: 53%;
+    margin: 17% 0 0 0;
+    background-color: rgba(245, 233, 233, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.giant_jupiter .extra_info_container #extra_info_icon:hover {
+    cursor: pointer;
+    width: 23px;
+}
+
+.giant_jupiter .extra_info_container #extra_info_icon:hover ~ .extra_info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.extra_info_container h3 { 
+    color: #333333;
+    padding: 20px 20px 0 20px;
+    margin: 0;
+}
+
+.extra_info_container p { 
+    font-size: 13px;
+    text-align: justify;
+    padding: 20px 20px 15px 20px;
+}
+
+.giants_mid_content .by_nasa {
+    padding: 0;
+    margin: 0;
+}

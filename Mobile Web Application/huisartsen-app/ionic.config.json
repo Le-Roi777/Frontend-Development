@@ -1,0 +1,7 @@
+{
+  "name": "huisartsen-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

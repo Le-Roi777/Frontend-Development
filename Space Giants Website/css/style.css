@@ -1,0 +1,627 @@
+@import url(normalize.css);
+
+html {
+    font-family: 'Noto Sans' ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*PAGE FONT STYLE START*/
+
+h1 {
+    line-height: 10px;
+    color: #58ABDE;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    color: #333333;
+}
+
+/*PAGE FONT STYLE END*/
+
+
+/*HEADER START*/
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+/*    border: 1px solid black;*/
+}
+
+.HeaderBgImg {
+    width: 100%;
+    height: auto;
+}
+
+.bg_img_text {
+    width: 100%;
+    text-align: center;
+    margin: -25% auto 10% auto;
+}
+
+.bg_img_text h2, p {
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+.bg_img_text h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.bg_img_text p {
+    font-size: 20px;
+}
+
+/*NAVIGATION START*/
+
+.NavContainer {
+    display: flex;
+    width: 85%;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin: 20px auto;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+/*    border: 1px solid green;*/
+}
+
+.nav_bg {
+    width: 100%;
+    height: 90px;
+    top: 0;
+    background-color: #333333;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+    position: fixed;
+    z-index: 2;
+}
+
+nav {
+/*    border: 1px solid blue;*/
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 0 0 55px;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a span {
+    margin-top: 2px;
+    height: 4px;
+    background-color: #58abde;
+    border-radius: 5px;
+    transition: all .2s ease-in;
+    opacity: 0;
+}
+
+#active {
+    display: block;
+    opacity: 1;
+}
+
+/*SUB MENU START*/
+
+.item_arrow {
+    padding: 0 0 0 5px;
+    top: 25px;
+    width: 10px;
+    transform: scaleY(-1);
+    transition: transform .2s ease-in-out;
+    position: absolute;
+}
+
+.galaxy_sub {
+    position: absolute;
+    top: 45px;
+    padding: 0;
+    background-color: #58ABDE;
+    border-radius: 5px;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.galaxy_sub li {
+    padding: 15px;
+}
+
+.galaxy_sub li a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    transition: all .2s ease-in;
+}
+
+.arrow_container {
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    margin: auto;
+    text-align: left;
+}
+
+#sub_arrow {
+    width: 20px;
+}
+
+/*SUB MENU END*/
+
+/*MENU INTERACTION START*/
+
+nav ul li a:hover span {
+    display: block;
+    opacity: 1;
+    transition: all .2s ease-in;
+}
+
+nav ul #galaxy_btn:hover, .galaxy_btn:hover {
+    cursor: pointer;
+}
+
+nav ul #galaxy_btn:hover .galaxy_sub {
+    display: block;
+}
+
+nav ul .galaxy_btn:hover .galaxy_sub {
+    display: block;
+}
+
+nav ul #galaxy_btn:hover .item_arrow {
+    transform: rotate(360deg);
+}
+
+.galaxy_sub li a:hover {
+    color: white;
+}
+
+/*MENU INTERACTION END*/
+
+.LogoContainer {
+    height: 50px;
+    width: 150px;
+/*    border: 1px solid blue;*/
+}
+
+.LogoContainer > a {
+    text-decoration: none;
+    display: block;
+}
+
+#Logo {
+    width: 50px;
+}
+
+.LogoContainer > a > p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 15px;
+    color: white;
+    margin: 10px auto;
+    float: right;
+}
+
+.LogoContainer > a > p > span {
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+/*NAVIGATION END*/
+
+/*HEADER END*/
+
+/*MAIN START*/
+
+main {
+    margin: 0 auto;
+}
+
+/*TOP CONTENT START*/
+
+.top_content_container {
+    width: 85%;
+    padding: 0 0 45px 0;
+    margin: 0 auto;
+}
+
+.top_content {
+    display: flex;
+}
+
+.top_content p {
+    color: #333333;
+    line-height: 20px;
+}
+
+#top_content_left {
+    width: 380px;
+}
+
+#astronaught_icon {
+    width: 60px;
+    float: left;
+    padding: 15px 20px 0 0;
+}
+
+#top_content_right {
+    margin: 0 auto;
+    width: 380px;
+}
+
+#solarsystem_icon {
+    width: 60px;
+    float: left;
+    padding: 20px 20px 0 0;
+}
+
+#space_explore_button, #giants_explore_button {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    margin: 0 0 0 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #58ABDE;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    transition: box-shadow .2s;
+}
+
+/*TOP CONTENT INTERACTION START*/
+
+#space_explore_button:hover {
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, .4);
+}
+
+#giants_explore_button:hover {
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, .4);
+}
+
+/*TOP CONTENT INTERACTION END*/
+
+/*TOP CONTENT END*/
+
+/*MID CONTENT START*/
+
+/*CROSS BAR*/
+
+.info_media_container_top {
+    display: block;
+    margin: 0 auto;
+}
+
+.cross_bar {
+    position: relative;
+    height: 121px;
+    background-color: #333333;
+    border-top: 6px solid #58ABDE;
+}
+
+.cross_bar h2 {
+    text-align: center;
+    color: white;
+    line-height: 85px;
+    vertical-align: middle;
+}
+
+#bar_arrow {
+    display: block;
+    width: 40px;
+    margin: -5px auto 0 auto;
+}
+
+/*CROSS BAR END*/
+
+.mid_content {
+    width: 85%;
+    margin: 100px auto 0 auto;
+}
+
+#nasa_link {
+    text-decoration: none;
+    color: #333333;
+}
+
+.mid_content p {
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0 50px 0 50px;
+    color: #58ABDE;
+}
+
+.planets_media h4 {
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    color: #58ABDE;
+}
+
+.planets_media p {
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.planets_media {
+    display: grid;
+    display: -ms-flexbox;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 50px;
+    justify-content: space-around;
+    align-content: space-evenly;
+    width: 100%;
+    margin: 100px auto 100px auto;
+}
+
+.planets_media a:hover img {
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, .5);
+}
+
+.planets_media div {
+    text-align: center;
+}
+
+.planets_media video {
+    object-fit: cover;
+}
+
+.planets_media img, video {
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    transition: box-shadow .2s;
+}
+
+.planets_media iframe {
+    margin: 0 auto;
+    object-fit: contain;
+    width: 100%;
+    height: calc(100% - 27%);
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+/*MID CONTENT END*/
+
+/*BOTTOM CONTENT START*/
+
+.bottom_content {
+    width: 100%;
+    padding: 100px 0 100px 0;
+    background-color: #E0E0E0;
+    border-bottom: 6px solid #58ABDE;
+}
+
+.bottom_info {
+    display: grid;
+    display: -ms-flexbox;
+    width: 85%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 50px;
+}
+
+.bottom_info #info_solarsystem,
+#info_biggiants,
+#info_explore {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+#info_solarsystem img,
+#info_biggiants img,
+#info_explore img {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border: 15px solid #333333;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.bottom_info h3 {
+    margin: 0;
+    color: #58ABDE;
+}
+
+.bottom_info p {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 15px 0 15px;
+}
+
+.solarsystem_button_container,
+.giants_button_container,
+.explore_button_container {
+    position: relative;
+}
+
+.solarsystem_button_container #solarsystem_button,
+#giants_button,
+#explore_button {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: -430px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #58ABDE;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+/*INTERACTION START*/
+
+#info_solarsystem:hover #solarsystem_button,
+#info_biggiants:hover #giants_button,
+#info_explore:hover #explore_button {
+    transform: translate3d(0,115px,0);
+    opacity: 1;
+}
+
+#info_solarsystem:hover img, #info_biggiants:hover img, #info_explore:hover img {
+    opacity: 0.3;
+    transform: scale3d(1.12,1.12,1);
+}
+
+/*INTERACTION END*/
+
+/*BOTTOM CONTENT END*/
+
+/*MAIN END*/
+
+
+/*FOOTER START*/
+footer {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    background: #333333;
+}
+
+.footer_content_container {
+    padding: 30px 0 10px 0;
+    margin: 0 auto;
+}
+
+footer #footer_bg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.LogoContainer_footer {
+    position: relative;
+    margin: 0 auto;
+    height: 50px;
+    width: 120px;
+}
+
+.LogoContainer_footer > a {
+    text-decoration: none;
+    display: block;
+}
+
+#Logo_footer {
+    width: 50px;
+}
+
+.LogoContainer_footer > a > p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 15px;
+    color: white;
+    margin: 10px auto;
+    float: right;
+}
+
+.LogoContainer_footer > a > p > span {
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.social_icons_container {
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+    width: 120px;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 32px;
+}
+
+.social_icons_container img {
+    width: 18px;
+    top: 10px;
+    position: relative;
+    
+}
+
+footer .divider {
+    width: 40%;
+    height: 1.5px;
+    border: none;
+    background: #58ABDE;
+}
+
+.footer_menu_container {
+    width: 60%;
+    word-spacing: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer_menu_container a {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.copyright {
+    top: 45px;
+    text-align: center;
+    padding: 20px 20px 0;
+}
+
+.copyright p {
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+/*FOOTER INTERACTION*/
+.footer_menu_container a:hover {
+    color: #58ABDE;
+}
+/*FOOTER INTERACTION*/
+/*FOOTER END*/

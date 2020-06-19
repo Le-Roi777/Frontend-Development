@@ -1,0 +1,93 @@
+@import url(style.css);
+
+.overview_content_container {
+    display: inline-block;
+    width: 100%;
+    background-color: #E0E0E0;
+}
+
+.overview_mid_content {
+    display: flex;
+    width: 85%;
+    margin: 100px auto 100px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+.overview_mid_content p {
+    text-align: justify;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0 50px 50px 50px;
+    color: #333333;
+}
+
+.overview_mid_content h2 {
+    font-weight: bold;
+    padding: 0 50px 0 50px;
+    color: #58ABDE;
+}
+
+.overview_content_right  {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.overview_content_left, .overview_content_right {
+    padding-top: 50px;
+    width: 50%;
+    background-color: white;
+}
+
+.overview_content_left a {
+    text-decoration: none;
+    color: #58ABDE;
+    font-weight: bold;
+}
+
+.overview_content_right h3 {
+    padding: 0 50px 0 50px;;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    transition: all ease-in-out 0.2s;
+}
+
+.overview_content_right a {
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+
+.overview_content_right section a:hover h3 {
+    color: #58ABDE;
+}
+
+.overview_content_right figure {
+    width: 50%;
+    padding: 0 50px 20px 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333333;
+}
+
+.overview_content_right figure img {
+    width: 100%;
+    height: auto;
+}
+
+.overview_content_right figcaption {
+    font-size: 12px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.overview_content_right hr {
+    width: 80%;
+    height: 1px;
+    border: none;
+    border-radius: 50px;
+    background: #58ABDE;
+}
+
+.overview_mid_content .by_nasa {
+    padding: 0 0 0 50px;
+}

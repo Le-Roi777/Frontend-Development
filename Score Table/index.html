@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Inzendopgaven 4</title>
+
+        <!--Main Css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--Main Css-->
+
+        <!-- ICONS LIB -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- ICONS LIB -->
+
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+        <!--Google Font-->
+
+    </head>
+
+    <body>
+
+        <!-- Content -->
+        <main>
+
+            <!-- MAIN CONAINER -->
+            <div class="container">
+
+                <!-- INPUT CONTAINER -->
+                <div class="forms_container">
+
+                    <div class="heading">
+                        <h2>Add Participant</h2>
+                    </div>
+
+                    <form id="add_participant" action="" autocomplete="off">
+
+                        <table id="input_table">
+
+                            <tr>
+                                <td>First Name</td>
+                                <td><input id="firts_name" type="text" maxlength="20" name="f_name" placeholder="First Name"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Last Name</td>
+                                <td><input id="last_name" type="text" maxlength="20" name="l_name" placeholder="Last Name"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Total Points</td>
+                                <td><input id="total_points" type="text" maxlength="20" name="t_points" placeholder="Total Points"></td>
+                            </tr>
+
+                        </table>
+
+                    </form>
+                    <button id="add_btn"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add</button>
+
+                </div>
+                <!-- INPUT CONTAINER -->
+
+                <!-- OUTPUT CONTAINER -->
+                <div id="output_container">
+
+                    <table id="output_table">
+
+                        <thead>
+                            <th>Position</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Score</th>
+                        </thead>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Clark</td>
+                            <td>Kent</td>
+                            <td>500</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Bruce</td>
+                            <td>Banner</td>
+                            <td>400</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Tony</td>
+                            <td>Stark</td>
+                            <td>350</td>
+                        </tr>
+
+                    </table>
+
+                    <div id="remove_container">
+
+                        <form id="remove_item" action="" onsubmit="return false" autocomplete="off">
+
+                            <label for="number_select">Remove Position</label>
+                            <br>
+                            <input id="number_select" type="text" maxlength="20" name="number_select">
+
+                        </form>
+
+                        <button id="remove_btn"><i class="fa fa-close"></i>&nbsp;&nbsp;Remove</button>
+
+                    </div>
+
+                </div>
+                <!-- OUTPUT CONTAINER -->
+                
+            </div>
+            <!-- MAIN CONAINER -->
+
+        </main>
+        <!-- Content -->
+        
+        <!-- Footer -->
+        <footer>
+        </footer>
+        <!-- Footer -->
+
+        <!-- SCRIPT -->
+        <script src="js/script.js"></script>
+        <!-- <script src="js/scopes.js"></script> -->
+        <!-- SCRIPT -->
+    </body>
+    
+</html>

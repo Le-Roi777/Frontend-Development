@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ionic App</title>
+
+  <base href="/" />
+
+  <meta name="color-scheme" content="light dark" />
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <link rel="shortcut icon" type="image/png" href="%PUBLIC_URL%/assets/icon/favicon.png" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Ionic App" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <script type="module"
+    src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"></script>
+  <script nomodule
+    src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"></script>
+
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+  <!-- ORIENTATION -->
+  <script type="text/javascript">
+
+    screen.orientation.addEventListener("change", function () {
+
+      if (screen.orientation = "portrait-primary") {
+
+        console.log("lock Screen");
+        console.log('Current orientation is ' + screen.orientation.type);
+
+        screen.orientation.lock("portrait-primary");
+      }
+    });
+  </script>
+  <!-- ORIENTATION -->
+
+  <!-- EMAIL -->
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_CLHiXGBL2gvujVSNHFtPd");
+    })();
+  </script>
+  <!-- EMAIL -->
+
+  <!-- // LOCATION -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function (event) {
+
+      let tabBar = document.getElementById("tabBar");
+
+      if ((window.location.href.indexOf("/login")) > -1 || (window.location.href.indexOf("/emergency")) > -1 || (window.location.href.indexOf("/calling")) > -1 || (window.location.href.indexOf("/emform")) > -1) {
+
+        tabBar.style.display = "none";
+      }
+    });
+  </script>
+  <!-- // LOCATION -->
+
+</body>
+
+</html>

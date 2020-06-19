@@ -1,0 +1,46 @@
+ion-datetime {
+    display: inherit;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    top: 0;
+}
+
+ion-col {
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    border: 1px solid white;
+    background: #44b39c;
+}
+
+#daysWeek {
+    background: none;
+    border: none;
+    color: #44b39c;
+}
+
+#weekend {
+    opacity: 0.5;
+}
+
+.disabled-opacity {
+    opacity: 0.5;
+}
+
+#insertItem {
+    display: none;
+}
+
+#appointText {
+    display: none;
+}
+
+#Available {
+    background-color: #28ba62;
+}
+
+#cancel-btn {
+    display: none;
+}

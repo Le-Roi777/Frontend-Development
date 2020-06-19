@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contact Us</title>
+        
+        <link rel="icon" type="image/ico" href="images/header/icons/favicon.ico" sizes="16x16">
+
+        <!--Contact Css-->
+        <link rel="stylesheet" type="text/css" href="css/contact_style.css">
+        <!--Contact Css-->
+        
+        <!--Media Query Css-->
+        <link rel="stylesheet" type="text/css" href="css/media_query.css">
+        <!--Media Query Css-->
+
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+        <!--Google Font-->
+
+    </head>
+
+    <body>
+        
+        <!-- Header -->
+        <header>
+
+            <div class="NavContainer">
+
+                <div class="LogoContainer">
+                    <a href="index.html"><img id="Logo" src="images/header/icons/logo.svg" alt="spaceship icon">
+                    <p id="logoText">SPACE<br><span>GIANTS</span></p></a>
+                </div>
+
+                <nav>
+
+                    <ul>
+                        <li><a href="index.html">home<span></span></a></li>
+                        <li id="galaxy_btn"><a href="#">galaxy<img class="item_arrow" src="images/header/icons/menu_arrow.svg" alt="arrow icon"></a>
+
+                        <ul class="galaxy_sub">
+
+                            <li class="arrow_container">
+                                <img id="sub_arrow" src="images/header/icons/sub_arrow.svg" alt="arrow icon">
+                            </li>
+
+                            <li><a href="overview.html">Overview</a></li>
+                            <li><a href="#">Big Giants</a></li>
+
+                        </ul> 
+                        </li>
+
+                        <li><a href="explore.html">exploration<span></span></a></li>
+                        <li id="device_active"><a href="contact.html">contact<span id="active"></span></a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+            
+            <div class="nav_bg"></div>
+            <div id="map_container"></div>
+
+        </header>
+        <!-- Header -->
+
+        <!-- Content -->
+        <main>
+
+            <section class="contact_container">
+
+                <div class="cross_bar">
+                    <h2>Contact Us</h2>
+                    <img id="bar_arrow" src="images/main/icons/bar_arrow.svg" alt="arrow icon">
+                </div>
+
+                <div class="contact_info_container">
+
+                    <div id="info_left">
+
+                        <h2>Get in touch</h2>
+                        <p><small>Call or Email us regarding questions or issues&period;</small></p>
+                        <hr>
+
+                        <div id="phone_icon">
+                            <img src="images/main/icons/phone.svg" alt="phone icon">
+                            <p>06 38 65 67 77</p>
+                        </div>
+
+                        <div id="mail_icon">
+                            <img src="images/main/icons/mail.svg" alt="mail icon">
+                            <p>info&commat;spacegiants&period;com</p>
+                        </div>
+
+                        <div id="marker_icon">
+                            <img src="images/main/icons/marker.svg" alt="marker icon">
+                            <a href="https://www.google.com/maps/place/Amsterdam/@52.3545828,4.7638781,11z/data=!3m1!4b1!4m5!3m4!1s0x47c63fb5949a7755:0x6600fd4cb7c0af8d!8m2!3d52.3666969!4d4.8945398" target="_blank"><p>123AB&comma; Street name 77</p>
+                            <p>Ouderkerk a&sol;d Amstel</p>
+                            <p>Amsterdam&comma; Netherlands</p></a>
+                        </div>
+
+                    </div>
+
+                    <div class="arrow_left_container">
+                        <img src="images/main/icons/arrow_left.svg" alt="left arrow icon">
+                    </div>
+
+                    <div id="forms_right">
+
+                        <form action="http://jkorpela.fi/cgi-bin/echo.cgi" enctype="multipart/form-data" method="post" autocomplete="off">
+                            <input id="name_input" name="name" type="text" placeholder="Name (required)" required>
+                            <input id="email_input" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="name@domain.com (required)" required>
+                            <input id="phone_input" name="phone" type="tel" pattern="0\d{9}" maxlength="10" placeholder="Phone Number">
+                            <textarea id="msg_input" name="msg" maxlength="350" placeholder="Message (required)" required></textarea>
+                            <input id="submit" type="submit">
+                        </form>
+
+                    </div>
+                    
+                </div>
+
+            </section>
+
+        </main>
+        <!-- Content -->
+        
+        <!-- Footer -->
+        <footer>
+            
+            <div class="footer_content_container">
+            
+                <div class="LogoContainer_footer">
+                    <a href="index.html"><img id="Logo_footer" src="images/header/icons/logo.svg" alt="spaceship icon">
+                    <p id="logoText_footer">SPACE<br><span>GIANTS</span></p></a>
+                </div>
+                
+                <div class="social_icons_container">
+                    <a href="#"><img src="images/footer/icons/facebook_icon.png" alt="facebook icon"></a>
+                    <a href="#"><img src="images/footer/icons/twitter_icon.png" alt="twitter icon"></a>
+                   <a href="#"><img src="images/footer/icons/share_icon.png" alt="share icon"></a>
+                </div>
+                
+                <hr class="divider">
+                
+                <div class="footer_menu_container">
+                    <a href="index.html">Home</a>
+                    <a href="overview.html">Galaxy</a>
+                    <a href="explore.html">Exploration</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="copyright">
+                    <p><small>&copy; Copyright 2020 Space Giants All Rights Reserved&period;</small></p>
+                </div>
+            
+            </div>
+            
+        </footer>
+        <!-- Footer -->
+
+        <script src="js/script.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIr-K2VhDwGuRfYgYtY_8g5Ifb9JH65Ik&callback=contactMap"></script>
+
+    </body>
+
+</html>

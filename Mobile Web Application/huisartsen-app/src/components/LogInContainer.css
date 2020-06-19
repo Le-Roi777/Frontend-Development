@@ -1,0 +1,56 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+.loginContenContainer {
+    display: flex;
+}
+
+.welcomeText {
+    text-align: center;
+}
+
+#passwordInput {
+    width: 50%;
+}
+
+.signInBtnCon {
+    margin: 50px auto;
+    width: 150px;
+}
+
+#signInBtn, #signUpBtn, #emergencyBtn  {
+    padding: 0 16px 0 16px;
+    margin: 0 0 10px;
+}
+
+small {
+    color: tomato;
+}
+
+i {
+    position: absolute;
+    top: 38%;
+    right: 8%;
+
+}
+
+.eye::before {
+    color:rgb(70, 70, 70);
+    content: '\f06e';
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: bold;
+    font-size:14px;
+    user-select: none;
+  }
+
+.eyeSlash::before {
+    position: relative;
+    color:rgb(70, 70, 70);
+    content: '\f070';
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: bold;
+    font-size:14px;
+    right: -7.1%;
+    user-select: none;
+  }

@@ -1,0 +1,326 @@
+/*MEDIA QUERY START*/
+
+@media screen and (max-width: 1295px) {
+    .planets_media  {
+        grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    }
+    
+    .planets_media iframe {
+        height: calc(100% - 25%);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .bottom_info {
+        grid-template-columns: auto;
+    }
+    
+    .bottom_info #info_solarsystem, #info_biggiants, #info_explore {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 860px) and (min-width: 320px) {
+   
+    /*NAV QUERY*/
+    header {
+        background-color: #333333;
+    }
+    
+    .HeaderBgImg {
+        display: none;
+    }
+    
+    .NavContainer {
+        position: inherit;
+        display:  block;
+    }
+    
+    .nav_bg {
+        display: none;
+    }
+    
+    nav ul {
+        width: 100%;
+    }
+    
+    nav ul li {
+       padding: 15px 0 15px 0;
+       border-radius: 30px;
+       display: block;
+       text-align: center;
+    }
+    
+    nav ul li a #active {
+        display: none;
+    }
+    
+    nav ul li a:hover span {
+        display: none;
+    }
+    
+    nav ul #device_active {
+        display: grid;
+        width: 50%;
+        margin: 0 auto;
+        background-color: #58ABDE;
+    }
+    
+    .LogoContainer {
+        margin: 0 auto;
+        width: 120px;
+    }
+
+    nav ul .device_active {
+        display: grid;
+        width: 75%;
+        margin: 0 auto;
+        background-color: #58ABDE;
+    }
+    
+    .galaxy_sub {
+        position: inherit;
+        margin: 10px 0 10px 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .item_arrow {
+        display: none;
+    }
+    
+    .arrow_container {
+        display: none;
+    }
+    /*NAV QUEY*/
+    
+    .top_content_container {
+        display: grid;
+        margin-top: 60px;
+    }
+    
+    .top_content {
+        display: grid;
+        grid-gap: 50px;
+        margin: 0 auto;
+    }
+    
+    #top_content_right {
+        margin: 0 0 20px 0;
+    }
+    
+    .planets_media h4 {
+        font-size: 14px;
+    }
+    
+    .planets_media  {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .footer_menu_container a {
+        display: block;
+        line-height: 20px;
+    }
+
+    /* CONTACT PAGE QUERY START */
+    .contact_info_container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+     .contact_info_container #info_left, #forms_right {
+        width: auto;
+    } 
+
+    .contact_info_container #forms_right form input {
+        width: 85%;
+    }
+
+    .contact_info_container #forms_right form #msg_input {
+        width: 85%;
+    }
+
+    .contact_info_container .arrow_left_container {
+        display: none;
+    }
+    /* CONTACT PAGE QUERY END */
+
+    /* OVERVIEW PAGE QUERY START */
+    .bg_img_text {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 40px 0 20px 0;
+        background-color: #58ABDE;
+    }
+
+    .bg_img_text > h2,p {
+        color: #333333;
+    }
+
+    .bg_img_text > h2 {
+        font-size: 24px;
+    }
+
+    .bg_img_text > p {
+        font-size: 16px;
+    }
+
+    .overview_mid_content {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .overview_content_left, .overview_content_right {
+        width: auto;
+    }
+
+    .overview_content_right {
+        border-top: 10px solid #E0E0E0;
+    }
+
+    .overview_mid_content p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .overview_mid_content h2 {
+        text-align: center;
+    }
+
+    #top_content_right > p {
+        text-align: left;
+    }
+    /* OVERVIEW PAGE QUERY END */
+
+    /* GIANTS PAGE START */
+
+    .giants_mid_content table {
+        display: none;
+    }
+
+    .giants_mid_content #responsive_table, #responsive_table_neptune,
+    #responsive_table_uranus, #responsive_table_saturn, #responsive_table_jupiter {
+        border-radius: 20px;
+        width: auto;
+        display: grid;
+    }
+
+    .giants_mid_content #responsive_table tr, #responsive_table_neptune tr,
+    #responsive_table_uranus tr, #responsive_table_saturn tr, #responsive_table_jupiter tr {
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .giants_mid_content #responsive_table th, #responsive_table_neptune th,
+    #responsive_table_uranus th, #responsive_table_saturn th, #responsive_table_jupiter th {
+        padding-top: 20px;
+    }
+
+    .giants_mid_content #responsive_table td, #responsive_table_neptune td,
+    #responsive_table_uranus td, #responsive_table_saturn td, #responsive_table_jupiter td {
+        padding: 5px 0 20px 0;
+        border-bottom: 1px solid white;
+    }
+
+    .giant_jupiter .extra_info_container {
+        display: none;
+    }
+
+    /* GIANTS PAGE START */
+
+    /* EXPLORE PAGE QUERY START */
+
+    .explore_mid_content {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .news_content_left, .news_content_right {
+        width: auto;
+    }
+
+    .news_content_left p {
+        text-align: center;
+    }
+
+    
+    .news_content_right p {
+        text-align: center;
+    }
+
+    .news_content_right {
+        border-top: 10px solid #E0E0E0;
+    }
+
+    /* EXPLORE PAGE QUERY START */
+}
+
+@media screen and (max-width: 840px) and (min-width: 647px) {
+    .planets_media iframe {
+        height: calc(100% - 25%);
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .top_content p {
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    .top_content {
+        text-align: center;
+    }
+
+    #astronaught_icon, #solarsystem_icon {
+        float: none;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #top_content_left, #top_content_right {
+        width: 270px;
+    }
+
+    #space_explore_button, #giants_explore_button {
+        margin: 0;
+    }
+
+    .mid_content p {
+        font-size: 14px;
+    }
+
+    .planets_media p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 647px) {
+    .planets_media iframe {
+        height: calc(100% - 25%);
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 646px) {
+    .planets_media iframe {
+        height: calc(100vw - 55vw);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bottom_info #info_solarsystem, #info_biggiants, #info_explore {
+        width: 100%;
+    }   
+}
+
+/*MEDIA QUERY END*/
