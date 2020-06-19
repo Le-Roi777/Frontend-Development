@@ -1,4 +1,5 @@
 # Showcase [![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4037/badge)](https://bestpractices.coreinfrastructure.org/projects/4037)
 
 <h3>Profiles</h3>
 
