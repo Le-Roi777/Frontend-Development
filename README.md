@@ -1,4 +1,4 @@
-# Showcase</br>[![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)
+# Showcase [![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4037/badge)](https://bestpractices.coreinfrastructure.org/projects/4037) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 <h3>Profiles</h3>
