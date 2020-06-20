@@ -81,7 +81,7 @@ header {
     top: 0;
     background-color: #ffffff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
-    /* border-bottom: 2px solid #2F2E41; */
+    border-bottom: 2px solid #2F2E41;
     position: fixed;
     z-index: 2;
 }
