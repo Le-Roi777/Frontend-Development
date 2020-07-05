@@ -2,7 +2,7 @@
 [![HitCount](http://hits.dwyl.com/Le-Roi777/Frontend-Development.svg)](http://hits.dwyl.com/Le-Roi777/Frontend-Development)</br>
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4037/badge)](https://bestpractices.coreinfrastructure.org/projects/4037) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 </br>
-<a href="https://www.codewars.com/users/Alucard7%20/completed"><img src="https://www.codewars.com/users/Alucard7%20/badges/micro"></a>
+<a href="https://www.codewars.com/users/Alucard7%20/completed" target="_blank"><img src="https://www.codewars.com/users/Alucard7%20/badges/micro"></a>
 
 <h3>Profiles</h3>
 
