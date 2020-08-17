@@ -5,7 +5,7 @@
 <a href="https://www.codewars.com/users/Alucard7%20/completed" target="_blank"><img src="https://www.codewars.com/users/Alucard7%20/badges/micro"></a>
 
 # Contributions
-<a href="https://github.com/thkruz/keeptrack.space"><img src="https://github.githubassets.com/favicons/favicon.png" width="15px">&nbsp;keeptrack.space</a>
+<a href="https://github.com/thkruz/keeptrack.space"><img src="https://github.com/thkruz/keeptrack.space/blob/master/favicon.ico" width="15px">&nbsp;keeptrack.space</a>
 
 
 # Profiles
