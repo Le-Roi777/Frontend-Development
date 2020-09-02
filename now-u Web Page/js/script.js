@@ -1,36 +1,42 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
 
-  let rellax = new Rellax('.rellax', { center: true, horizontal: true, vertical: true });
+    var rellax = new Rellax('.rellax', {center: true});
+    var destroyRellax = window.matchMedia("(max-width: 740px)")
 
-  let header = document.getElementById("navigation");
-  let btns = header.getElementsByClassName("btn");
+    var header = document.getElementById("navigation");
+    var btns = header.getElementsByClassName("btn");
 
-  for (let i = 0; i < btns.length; i++) {
+    for (var i = 0; i < btns.length; i++) {
 
-    btns[i].addEventListener("click", function () {
+        btns[i].addEventListener("click", function() {
 
-      let current = document.getElementsByClassName("active");
+            var current = document.getElementsByClassName("active");
 
-      if (current.length > 0) {
-        current[0].className = current[0].className.replace(" active", "");
+            if (current.length > 0) { 
+                current[0].className = current[0].className.replace(" active", "");
+            }
+        this.className += " active";
+        });
+    }
+
+    unloadFunction(destroyRellax)
+    destroyRellax.addListener(unloadFunction)
+
+    function unloadFunction(d) {
+      if (destroyRellax.matches) {
+        rellax.destroy();
       }
-      this.className += " active";
-    });
-  }
+    }
 });
 
 // NAVIGATION RESPONSIVE
-function myFunction() {
-
-  let x = document.getElementById("myTopnav");
-
-  if (x.className === "topnav") {
-
-    x.className += " responsive";
-  } else {
-
-    x.className = "topnav";
+function iconFunction() {
+    var hamburgerIcon = document.getElementById("myTopnav");
+    if (hamburgerIcon.className === "topnav") {
+      hamburgerIcon.className += " responsive";
+    } else {
+      hamburgerIcon.className = "topnav";
+    }
   }
-}
-  // NAVIGATION RESPONSIVE
+// NAVIGATION RESPONSIVE
 

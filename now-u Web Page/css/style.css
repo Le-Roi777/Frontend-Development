@@ -15,14 +15,14 @@ header h1 {
     padding: 0;
     font-size: 55px;
     font-weight: 900;
-    color: #FF8800;
+    color: #3f3d56;
 }
 
 header h2 {
     padding: 0 0 100px 0;
     margin: 0;
     font-weight: normal;
-    color: #454545;
+    color: #3f3d56;
 }
 
 p {
@@ -36,8 +36,6 @@ p {
 header {
     display: inline-block;
     width: 100%;
-    margin: 0 auto 40px;
-/*    border: 1px solid black;*/
 }
 
 #header_text_container {
@@ -49,7 +47,7 @@ header {
     display: inline-grid;
     font-weight: bold;
     font-size: 16px;
-    color: #888888
+    color: #3f3d56;
 }
 
 #header_text_container small img {
@@ -98,12 +96,23 @@ nav {
 }
 
 nav ul {
-    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+nav ul #signup_btn a {
+    color: white;
+    background-color: #FF8800;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
 }
 
 nav ul li {
     list-style: none;
-    padding: 0 0 0 55px;
+    padding: 0 0 0 25px;
     display: inline-block;
 }
 
@@ -170,7 +179,7 @@ nav ul li a:active span {
     padding: 0;
     margin: 0;
     font-weight: normal;
-    color: #454545;
+    color: white;
 }
 
 #timer_container {
@@ -188,7 +197,7 @@ nav ul li a:active span {
     height: 75px;
     font-size: 32px;
     line-height: 78px;
-    color: #454545;
+    color: #3f3d56;
     padding: 0;
     font-weight: bold;
     border: 5px solid #3F3D56;
@@ -196,7 +205,7 @@ nav ul li a:active span {
   }
 
 #timer_container small {
-    color: #888888;
+    color: white;
   }
 
 #timer_container div {
@@ -254,7 +263,7 @@ main {
 .our_story_container {
     display: flex;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .our_story_container h2 {
@@ -296,14 +305,15 @@ main {
 }
 
 .right_content img {
-    width: 400px;
+    width: 450px;
 }
 
 #background_container {
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
-    height: 100%;
+    /* height: 70vh; */
+    padding: 50px 0 50px 0;
     background-color: #2F2E41;
 }
 /* OUR SORY */
@@ -398,7 +408,8 @@ main {
     margin: auto;
     width: 100%;
     height: 60%;
-    background-color: #FF8800;
+    background: rgb(255,136,0);
+    background: linear-gradient(180deg, rgba(255,136,0,1) 0%, rgba(211,14,0,1) 100%);
 }
 
 #app_background_container .right_content #more_btn{
@@ -411,7 +422,7 @@ main {
 .get_involved_container {
     display: block;
     margin: 0 auto;
-    height: 65vh;
+    height: 60vh;
     background-color: #EEEEEE;
 }
 
@@ -491,6 +502,28 @@ main {
 #forms_container input:focus {
     outline: 2px solid #FF8800;
 }
+
+.response {
+    margin-left: 40px;
+}
+
+#required_val {
+    display: none;
+    width: 480px;
+    text-align: right;
+    margin: -30px;
+    position: absolute;
+    color: red;
+}
+
+#patern_val {
+    display: none;
+    width: 530px;
+    text-align: right;
+    margin: -30px;
+    position: absolute;
+    color: red;
+}
 /* GET INVOLVED */
 
 /*MAIN END*/
@@ -544,12 +577,3 @@ footer #social_icons {
     font-weight: normal;
 }
 /*FOOTER END*/
-
-.box {
-    width: 5em;
-    height: 5em;
-    background: linear-gradient(135deg, #3cdddd, #ff1ac6);
-    transform: translateX(var(--tx)) rotate(var(--r));
-    transition: transform .1s linear;
-    will-change: transform;
- }
