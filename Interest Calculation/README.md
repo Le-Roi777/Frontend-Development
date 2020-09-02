@@ -5,5 +5,5 @@
 HTML, CSS, JavaScript
 
 <h1>Live Demo</h1>
-Check out a live demo here.
+<p>Check out a live demo here.</p>
 <a href="https://interest.comp-u-media.nl" target="_blank">Interest Calculation</a>
