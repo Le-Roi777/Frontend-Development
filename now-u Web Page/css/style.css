@@ -15,7 +15,7 @@ header h1 {
     padding: 0;
     font-size: 55px;
     font-weight: 900;
-    color: #3f3d56;
+    color: #ff8800;
 }
 
 header h2 {
@@ -171,7 +171,7 @@ nav ul li a:active span {
 
 /* TIMER STYLE */
 #timer_header {
-    margin: 150px auto 0;
+    /* margin: 150px auto 0; */
     text-align: center;
 }
 
@@ -205,7 +205,7 @@ nav ul li a:active span {
   }
 
 #timer_container small {
-    color: white;
+    color: #3f3d56;
   }
 
 #timer_container div {

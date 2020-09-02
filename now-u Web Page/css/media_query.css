@@ -38,7 +38,11 @@
     }
 
     .LogoContainer {
-        display: none;
+        display: block;
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        text-align: center;
     }
 
     #header_info_container {
@@ -67,9 +71,9 @@
         padding: 0 20px 0 20px;
     }
 
-    #timer_header {
+    /* #timer_header {
         margin: 50px 0 0 0;
-    }
+    } */
 
     /* #background_container {
         display: grid;
@@ -216,7 +220,11 @@
     }
 
     .LogoContainer {
-        display: none;
+        display: block;
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        text-align: center;
     }
 
     #header_info_container {
@@ -237,9 +245,9 @@
         padding: 0 20px 0 20px;
     }
 
-    #timer_header {
+    /* #timer_header {
         margin: 50px 0 0 0;
-    }
+    } */
 
     #background_container {
         display: grid;
@@ -337,6 +345,10 @@
       position: absolute;
       right: 0;
       top: 0;
+    }
+
+    .topnav.responsive li:first-child {
+        padding-top: 50px;
     }
 
     .topnav.responsive li {
