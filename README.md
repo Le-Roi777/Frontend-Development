@@ -11,6 +11,12 @@
 <a title="Ramaksoud2000 via Chris Williams / Public domain" href="#"><img width="60" alt="JavaScript-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/512px-JavaScript-logo.png"></a>
 </br>
 </br>
+<a title="Facebook / Public domain" href="#"><img width="100" alt="React-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"></a>
+</br>
+</br>
+<a title="Ionic / Public domain" href="#"><img width="100" alt="Ionic Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/512px-Ionic_Logo.svg.png"></a>
+</br>
+</br>
 <a href="https://www.codewars.com/users/Alucard7%20/completed" target="_blank"><img src="https://www.codewars.com/users/Alucard7%20/badges/micro"></a>
 
 # Contributions
