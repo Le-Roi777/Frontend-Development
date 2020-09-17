@@ -5,9 +5,6 @@
 </a>
 </br>
 </br>
-<a title="Rudloff / CC BY (https://creativecommons.org/licenses/by/3.0)" href="#"><img width="60" alt="CSS3 logo and wordmark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/256px-CSS3_logo_and_wordmark.svg.png"></a>
-</br>
-</br>
 <a title="Ramaksoud2000 via Chris Williams / Public domain" href="#"><img width="60" alt="JavaScript-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/512px-JavaScript-logo.png"></a>
 </br>
 </br>
