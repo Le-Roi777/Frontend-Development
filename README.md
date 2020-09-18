@@ -1,4 +1,6 @@
-# Development Projects
+# Front-End Web Development Projects
+
+<p><strong>The projects in this repository where build using the following development technologies:<strong></p>
 
 <a href="#">
 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-performance-semantics.png" width="229" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Performance &amp; Integration, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Performance &amp; Integration, and Semantics">
