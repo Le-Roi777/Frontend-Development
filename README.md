@@ -16,7 +16,6 @@
 <a title="Ionic / Public domain" href="#"><img width="100" alt="Ionic Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/512px-Ionic_Logo.svg.png"></a>
 </br>
 </br>
-<a href="https://www.codewars.com/users/Alucard7%20/completed" target="_blank"><img src="https://www.codewars.com/users/Alucard7%20/badges/micro"></a>
 
 # Contributions
 <a href="https://github.com/thkruz/keeptrack.space"><img src="https://github.com/thkruz/keeptrack.space/blob/master/favicon.ico" width="15px">&nbsp;keeptrack.space</a>
