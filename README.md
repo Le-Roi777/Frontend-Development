@@ -1,4 +1,6 @@
-# Development Projects
+# Front-End Web Development Projects
+
+<p><strong>The projects in this repository where build using the following development technologies:<strong></p>
 
 <a href="#">
 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-performance-semantics.png" width="229" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Performance &amp; Integration, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Performance &amp; Integration, and Semantics">
@@ -14,7 +16,6 @@
 <a title="Ionic / Public domain" href="#"><img width="100" alt="Ionic Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/512px-Ionic_Logo.svg.png"></a>
 </br>
 </br>
-<a href="https://www.codewars.com/users/Alucard7%20/completed" target="_blank"><img src="https://www.codewars.com/users/Alucard7%20/badges/micro"></a>
 
 # Contributions
 <a href="https://github.com/thkruz/keeptrack.space"><img src="https://github.com/thkruz/keeptrack.space/blob/master/favicon.ico" width="15px">&nbsp;keeptrack.space</a>
