@@ -6,4 +6,4 @@ Html, Css, JavaScript
 
 <h2>Live Demo</h2>
 Check out a live demo here:</br>
-<a href="https://score.comp-u-media.nl" target="_blank">Score Table</a>
+<a href="https://cwdgen.dev/projects/score/index.html" target="_blank">Score Table</a>
