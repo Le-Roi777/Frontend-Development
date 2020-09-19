@@ -6,4 +6,4 @@ HTML, CSS, JavaScript
 
 <h2>Live Demo</h2>
 Check out a live demo here:</br>
-<a href="https://interest.comp-u-media.nl" target="_blank">Interest Calculation</a>
+<a href="https://cwdgen.dev/projects/interest/index.html" target="_blank">Interest Calculation</a>
